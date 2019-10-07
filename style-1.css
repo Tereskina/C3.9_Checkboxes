@@ -1,0 +1,38 @@
+body { 
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+.bg {
+	background-image: url("image.jpg"); 
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.message {
+	margin-top: 20vh; margin-bottom: 20px;
+	text-align: center;
+}
+
+.set {
+	margin-left: 35vh;
+	font-size: 20px;
+}
+
+.container {
+	width:540px; 
+	min-height:200px;
+}
+
+.rights {
+	position:absolute; bottom:2px; right:2px;
+}
+
+
+
+
